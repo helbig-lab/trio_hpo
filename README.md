@@ -6,7 +6,7 @@ For each patient, phenotypes were standardized using HPO (Human Phenotype Ontolo
 
 Different steps and the scripts:
 
-- HPO data manipulation [tbd](tbd). This script checks the input data in HPO format and reports an overview of the dataset. We also compute Information Content (IC) for each HPO terms based on the frequency in the cohort.
+- [HPO data manipulation](https://github.com/helbig-lab/trio_hpo/blob/main/scripts/harmonize_data_hpo.R). This script checks the input data in HPO format and reports an overview of the dataset. We also compute Information Content (IC) for each HPO terms based on the frequency in the cohort.
 
 - Computation of similarity score [tbd](tbd). This script guides us in computing the similarity score based on all different algorithms. The output of this step will be a matrix with pair-wise similarity score.
 
